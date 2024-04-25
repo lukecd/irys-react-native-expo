@@ -113,7 +113,7 @@ export default function MainScreen() {
 					<Button theme="primary" label="Choose a photo" onPress={pickImageAsync} />
 					<Button label="Use this photo" onPress={() => setShowAppOptions(true)} />
 				</View>
-			)}{" "}
+			)}
 			<EmojiPicker isVisible={isModalVisible} onClose={onModalClose}>
 				<EmojiList onSelect={setPickedEmoji} onCloseModal={onModalClose} />
 			</EmojiPicker>
